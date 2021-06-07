@@ -1,0 +1,39 @@
+{
+    "inShop": [
+        "pancakes",
+        "royaljelly"
+    ],
+    "devcard": {
+        "name": "devCard",
+        "emoji": "<:download:846420375021682718>",
+        "desc": "Only one person has this card, and it belongs to the dev himself >:)",
+        "cost": "Cannot be bought",
+        "sell": "Cannot be sold"
+    },
+    "pancakes": {
+        "name": "Pancakes",
+        "emoji": ":pancakes:",
+        "desc": "yummy pancakes drizzled with honey mmmmmm",
+        "usage": ["none", "You ate some pancakes, and the pancakes were good", 0],
+        "cost": 500,
+        "sell": "Cannot be sold"
+    },
+    "royaljelly": {
+        "name": "Royal Jelly",
+        "emoji": ":honey_pot:",
+        "desc": "Each one used gives you a 0.5% multiplier (limit is 50, for a 25% multi bonus)",
+        "usage": ["multiplier", "You drank some royal jelly, and now feel empowered with a +0.5% multiplier!"],
+        "properties": [0.50, "permanent", 50],
+        "cost": 15000,
+        "sell": 1500
+    },
+    "prayerbeads": {
+        "name": "Prayer Beads",
+        "emoji": "prayer_beads",
+        "desc": "Protects the wearer once by lowering the effect of ghostly punishment",
+        "usage": ["protect", "This item can't be used, since merely carrying it gives you it's effect"],
+        "properties": [50, "onUse", "notUsable"],
+        "cost": "Cannot be purchases",
+        "sell": "Cannot be sold"
+    }
+}
